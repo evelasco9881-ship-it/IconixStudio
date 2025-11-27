@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About Us</title>
+
+<style>
+body { margin:0; font-family: Futura, sans-serif; background:#1c1c1c; color:white; }
+header { display:flex; align-items:center; background:#ff6a00; padding:1rem 2rem; }
+header img.logo { width:70px; height:70px; margin-right:1rem; }
+nav { display:flex; gap:1rem; margin-left:auto; }
+nav a { color:white; text-decoration:none; font-weight:bold; padding:0.5rem 1rem; }
+.section { max-width:1200px; margin:auto; padding:2rem; }
+.row { display:flex; flex-wrap:wrap; gap:2rem; margin-bottom:2rem; }
+.col { flex:1; min-width:300px; position:relative; }
+.col img { width:100%; border-radius:10px; }
+.overlay { position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); 
+color:white; display:flex; align-items:center; justify-content:center; text-align:center; 
+border-radius:10px; padding:1rem; }
+
+.box {
+    background: rgba(0, 0, 0, 0.6);   /* Semi-transparent black */
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Extra spacing between description and profile section */
+.profile-section {
+    margin-top: 3rem;  /* adjust if you want more space */
+}
+
+/* Background with vignette */
+.profile-bg {
+    position: relative;
+    padding: 3rem 1rem;
+    border-radius: 15px;
+
+    /* Background image */
+    background: url('/mnt/data/9026dcb3-8680-4b65-90fe-469ed498af70.png') center/cover no-repeat;
+
+    /* Vignette overlay effect */
+    box-shadow: inset 0 0 200px rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+/* Profile picture styling */
+.profile-bg img {
+    width: 250px;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+
+</style>
+
+</head>
+<body>
+<header>
+<img src="logo.png" class="logo" alt="Company Logo">
+<h2>Iconix Studio</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="section">
+<h1 style="color:yellow">About Our Company</h1>
+
+<!-- 2.1 Company Description -->
+
+<div class="row">
+<div class="col">
+<div class="box">
+<img ="black">
+<p style = "font-size: 1.25rem; text-align:justified;">Iconix Studio is a One-man multimedia Business that offers various digital arts for clients such as Video Editing, Animation <br>
+and Graphic Designs, offering clients an output they expect, need, and desire for any project, in any occasion. </p>
+</div>
+</div>
+</div>
+
+<!-- 2.2 Business Owner -->
+
+<div class="row profile-section">
+    <div class="col" style="order:2;">
+        
+        <div class="profile-bg">
+            <img src="velasco.png" alt="Owner Image">
+
+            <h2 style="margin-top:1rem;">
+                Ezra Shadrock B. Velasco<br>
+                <span style="font-size:1rem;">Owner</span>
+            </h2>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- 2.3 Quote -->
+
+<div class="row">
+  <div class="col" style="position:relative;">
+<div class="box">
+ <p style="text-align:center;"><strong><I>"Providing the Best Quality the People deserve"</I></strong></p>
+  </div>
+</div>
+</div>
+
+
+<!-- 2.4 History -->
+
+<div class="row">
+<div class="col" style="padding:1rem;">
+<h1 style = "color:yellow">History of the Company</h1>
+<p style="font-size:1.3rem; line-height:1.8;">Around late 2022, I started his own YouTube channel, gaining inspiration from multiple content creators online. From the way they edit, overlay videos, and mix sound effects. Gaining positive feedback from viewers online, I got inspired to learn more about editing. From here, this inspiration influenced me into learning and adapting to other forms of multimedia: Graphic Designs, Sound Design, and Animation.</p>
+</div>
+</div>
+
+
+
+<!-- 2.6 Progress -->
+<h1 style="color:yellow">Progress</h1>
+<div class="row">
+<div class="col" style="position:relative;">
+<img src="progress.jpg" alt="Progress Image">
+<div class="overlay">
+<p style ="font-size: 1.25rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.85);">After 3 years later of learning and adapting to other multimedia art forms, Iconix Studio is now a part-time business run solely by me, gathering video-editing commissions, Graphic Design, and more, with the goal of Satisfying my Clients based on their specific needs and requests. Today, Iconix Studio has gathered over 8 Clients so far, earning around ₱3,000+ from doing multimedia work!</p>
+</div>
+</div>
+</div>
+
+<!-- 2.5 Vision & Mission -->
+
+<div class="row">
+<div class="col" sty`le="padding:1rem;">
+<h1 style ="color:yellow">Vision & Mission</h1>
+</div>
+</div>
+
+<!-- 2.5 Vision -->
+<div class="row">
+<div class="col" sty`le="padding:1rem;">
+<div class="box">
+<h2>Vision</h2>
+<p>To deliver exceptional results that empower and satisfy customers, setting a standard of quality they can truly rely on..</p>
+</div>
+</div>
+</div>
+
+<!-- 2.5 Mission -->
+<div class="row">
+<div class="col" sty`le="padding:1rem;">
+<div class="box">
+<h2>Mission</h2>
+<p>To provide services with consistent excellence, ensuring every customer receives the outcome they deserve through dedication, precision, and a commitment to continuous improvement..</p>
+</div>
+</div>
+</div>
+
+</section>
+</body>
+</html>
